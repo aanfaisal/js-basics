@@ -14,14 +14,14 @@
 // //interestRate = 1;
 // console.log(interestRate);
 
-//  Primitive Types
-let name = "Aan"; // ini string
-let age = 20; // ini number
-let isApproved = true; // ini boolean -- true / false
-let firstName = undefined;
-let lastName = null;
+// //  Primitive Types
+// let name = "Aan"; // ini string
+// let age = 20; // ini number
+// let isApproved = true; // ini boolean -- true / false
+// let firstName = undefined;
+// let selectedColor = null;
 
-
+// Dynamic Typing ==> typeof name dst ..... 
 
 
 
