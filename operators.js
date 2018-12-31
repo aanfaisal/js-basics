@@ -28,18 +28,26 @@
 
 // console.log(x);
 
-let x = 1;
-// Relasional Operator
-console.log( x > 0);
-console.log( x >= 0);
-console.log( x < 0);
-console.log( x <= 0);
+// // Comparison Operator
+// let x = 1;
+// // Relasional Operator
+// console.log( x > 0);
+// console.log( x >= 0);
+// console.log( x < 0);
+// console.log( x <= 0);
 
-// Equality Operator
-console.log( x === 0);
-console.log( x !== 0);
+// // Equality Operator
+// console.log( x === 0);
+// console.log( x !== 0);
 
+// Equality Operator Lanjutan
 
+// Strict Equality  === kanan dan kiri value dan datatype harus sama
+console.log( 1 === 1); 
+console.log( '1' === 1); //false
 
-
+// Lose Equality ( Cuma ngecek Valuenya)
+console.log( 1 == 1);
+console.log( '1' == 1); //true
+console.log( true == 1);
 
