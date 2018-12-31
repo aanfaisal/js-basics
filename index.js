@@ -45,8 +45,18 @@
 
 // Function ==> greet(name) name disini adalah PARAMETER
 function greet(name, LastName) {
-  console.log('Hello ' + name + LastName)
+  console.log('Hello ' + name + ' ' + LastName)
 }
 
 // Aan disini adalah ARGUMENT
 greet('Aan', 'Faisal');
+
+
+
+// Types of Function
+
+function square(number){
+  return number*number
+}
+
+console.log(square(3));
