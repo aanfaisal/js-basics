@@ -23,5 +23,14 @@
 
 // Dynamic Typing ==> typeof name dst ..... 
 
+// Object
+let person = {
+  name : "Aan",
+  age : 25
+}
+// Dot Notation
+person.name = "Aan";
+// Bracket Notation
+person["name"] = "Budi";
 
-
+console.log(person.name);
