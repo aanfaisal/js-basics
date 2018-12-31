@@ -23,14 +23,22 @@
 
 // Dynamic Typing ==> typeof name dst ..... 
 
-// Object
-let person = {
-  name : "Aan",
-  age : 25
-}
-// Dot Notation
-person.name = "Aan";
-// Bracket Notation
-person["name"] = "Budi";
+// // Object
+// let person = {
+//   name : "Aan",
+//   age : 25
+// }
+// // Dot Notation
+// person.name = "Aan";
+// // Bracket Notation
+// person["name"] = "Budi";
 
-console.log(person.name);
+// console.log(person.name);
+
+// Array digunakan untuk menyimpan list sesuatu :o
+
+let selectedColor = ["red", "blue"];
+
+selectedColor[2]= 1;
+
+console.log(selectedColor.length);
