@@ -51,14 +51,38 @@
 // console.log( '1' == 1); //true
 // console.log( true == 1);
 
-// Ternary Operator ( perbandingan ) contoh soal
-// If a customer has more than 100 points , they are 'gold' member,
-// otherwise , they are 'silver' member
+// // Ternary Operator ( perbandingan ) contoh soal
+// // If a customer has more than 100 points , they are 'gold' member,
+// // otherwise , they are 'silver' member
 
-let points = 100;
+// let points = 100;
 
-let type = points > 100 ? 'gold' : 'silver';
+// let type = points > 100 ? 'gold' : 'silver';
 
-console.log(type);
+// console.log(type);
+
+// Logical Operator
+// Logical AND ( && ) Returns TRUE apabila operand TRUE
+
+// console.log( true && true);  // true
+// console.log( true && false); // false
+// console.log( false && true); // false
+
+// Logical OR ( || ) Return TRUE apabila salah satu operand TRUE
+
+let highIncome = true;
+let goodCredit = false;
+
+let eligibleForLoan = highIncome || goodCredit;
+
+console.log(eligibleForLoan);
+
+// Logical NOT ( ! ) Return Value Sebaliknya
+
+let appRefused = !eligibleForLoan;
+console.log('Application Refused', appRefused);
+
+
+
 
 
